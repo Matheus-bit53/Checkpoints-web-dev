@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkpoint 1 - Calculadora de Compras</title>
+</head>
+<body>
+    <h2>Calculadora de Compras</h2>
+
+    <label for="preco">Preço Unitário (R$):</label>
+    <input type="number" id="preco" step="0.01" placeholder="Ex: 15.00"><br><br>
+
+    <label for="quantidade">Quantidade:</label>
+    <input type="number" id="quantidade" placeholder="Ex: 3"><br><br>
+
+    <button onclick="calcularTotal()">Calcular Total</button>
+
+    <h3 id="resultado">Total da compra: R$ 0,00</h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
